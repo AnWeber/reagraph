@@ -1,0 +1,40 @@
+import{j as c}from"./jsx-runtime-9c4ae004.js";import{G as a}from"./RadialMenu-2d829bd6.js";import"./index-1b03fe98.js";import{s as m,b as g}from"./demo-6642a2fc.js";import"./index-27578f8f.esm-24d23efb.js";import"./extends-98964cd2.js";import"./client-449ccf6c.js";import"./index-6fd5a17b.js";const j={title:"Demos/Edges",component:a},e=()=>c.jsx(a,{labelType:"all",nodes:[{id:"1",label:"1"},{id:"2",label:"2"},{id:"3",label:"3"},{id:"4",label:"4"},{id:"5",label:"5"}],edges:[{source:"1",target:"2",id:"1-2",label:"1-2"},{source:"2",target:"3",id:"2-3",label:"2-3",size:5},{source:"3",target:"4",id:"3-4",label:"3-4",size:3},{source:"4",target:"5",id:"4-5",label:"4-5",size:10}]}),s=()=>c.jsx(a,{nodes:m,edges:g,onEdgeClick:p=>alert(`Edge ${p.id} clicked`)});var r,l,o;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:`() => <GraphCanvas labelType="all" nodes={[{
+  id: '1',
+  label: '1'
+}, {
+  id: '2',
+  label: '2'
+}, {
+  id: '3',
+  label: '3'
+}, {
+  id: '4',
+  label: '4'
+}, {
+  id: '5',
+  label: '5'
+}]} edges={[{
+  source: '1',
+  target: '2',
+  id: '1-2',
+  label: '1-2'
+}, {
+  source: '2',
+  target: '3',
+  id: '2-3',
+  label: '2-3',
+  size: 5
+}, {
+  source: '3',
+  target: '4',
+  id: '3-4',
+  label: '3-4',
+  size: 3
+}, {
+  source: '4',
+  target: '5',
+  id: '4-5',
+  label: '4-5',
+  size: 10
+}]} />`,...(o=(l=e.parameters)==null?void 0:l.docs)==null?void 0:o.source}}};var d,i,t;s.parameters={...s.parameters,docs:{...(d=s.parameters)==null?void 0:d.docs,source:{originalSource:"() => <GraphCanvas nodes={simpleNodes} edges={simpleEdges} onEdgeClick={edge => alert(`Edge ${edge.id} clicked`)} />",...(t=(i=s.parameters)==null?void 0:i.docs)==null?void 0:t.source}}};export{s as Events,e as Sizes,j as default};
+//# sourceMappingURL=Edges.story-77b27ae4.js.map

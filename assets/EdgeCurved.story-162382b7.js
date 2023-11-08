@@ -1,0 +1,40 @@
+import{j as a}from"./jsx-runtime-9c4ae004.js";import{G as e}from"./RadialMenu-2d829bd6.js";import"./index-1b03fe98.js";import{s as i,b as t}from"./demo-6642a2fc.js";import"./index-27578f8f.esm-24d23efb.js";import"./extends-98964cd2.js";import"./client-449ccf6c.js";import"./index-6fd5a17b.js";const f={title:"Demos/Edges/Curved",component:e},r=()=>a.jsx(e,{nodes:i,edges:t,edgeArrowPosition:"none",edgeInterpolation:"curved",onEdgeClick:A=>alert(`Edge ${A.id} clicked`)}),s=()=>a.jsx(e,{edgeArrowPosition:"end",edgeInterpolation:"curved",nodes:i,edges:t}),o=()=>a.jsx(e,{edgeArrowPosition:"mid",edgeInterpolation:"curved",nodes:i,edges:t}),d=()=>a.jsx(e,{edgeInterpolation:"curved",labelType:"all",nodes:[{id:"1",label:"1"},{id:"2",label:"2"},{id:"3",label:"3"},{id:"4",label:"4"},{id:"5",label:"5"}],edges:[{source:"1",target:"2",id:"1-2",label:"1-2"},{source:"2",target:"3",id:"2-3",label:"2-3",size:5},{source:"3",target:"4",id:"3-4",label:"3-4",size:3},{source:"4",target:"5",id:"4-5",label:"4-5",size:10}]});var l,n,c;r.parameters={...r.parameters,docs:{...(l=r.parameters)==null?void 0:l.docs,source:{originalSource:'() => <GraphCanvas nodes={simpleNodes} edges={simpleEdges} edgeArrowPosition="none" edgeInterpolation="curved" onEdgeClick={edge => alert(`Edge ${edge.id} clicked`)} />',...(c=(n=r.parameters)==null?void 0:n.docs)==null?void 0:c.source}}};var p,g,m;s.parameters={...s.parameters,docs:{...(p=s.parameters)==null?void 0:p.docs,source:{originalSource:'() => <GraphCanvas edgeArrowPosition="end" edgeInterpolation="curved" nodes={simpleNodes} edges={simpleEdges} />',...(m=(g=s.parameters)==null?void 0:g.docs)==null?void 0:m.source}}};var u,b,v;o.parameters={...o.parameters,docs:{...(u=o.parameters)==null?void 0:u.docs,source:{originalSource:'() => <GraphCanvas edgeArrowPosition="mid" edgeInterpolation="curved" nodes={simpleNodes} edges={simpleEdges} />',...(v=(b=o.parameters)==null?void 0:b.docs)==null?void 0:v.source}}};var C,E,w;d.parameters={...d.parameters,docs:{...(C=d.parameters)==null?void 0:C.docs,source:{originalSource:`() => <GraphCanvas edgeInterpolation="curved" labelType="all" nodes={[{
+  id: '1',
+  label: '1'
+}, {
+  id: '2',
+  label: '2'
+}, {
+  id: '3',
+  label: '3'
+}, {
+  id: '4',
+  label: '4'
+}, {
+  id: '5',
+  label: '5'
+}]} edges={[{
+  source: '1',
+  target: '2',
+  id: '1-2',
+  label: '1-2'
+}, {
+  source: '2',
+  target: '3',
+  id: '2-3',
+  label: '2-3',
+  size: 5
+}, {
+  source: '3',
+  target: '4',
+  id: '3-4',
+  label: '3-4',
+  size: 3
+}, {
+  source: '4',
+  target: '5',
+  id: '4-5',
+  label: '4-5',
+  size: 10
+}]} />`,...(w=(E=d.parameters)==null?void 0:E.docs)==null?void 0:w.source}}};export{r as Curved,s as CurvedArrowsEnd,o as CurvedArrowsMid,d as CurvedSizes,f as default};
+//# sourceMappingURL=EdgeCurved.story-162382b7.js.map
